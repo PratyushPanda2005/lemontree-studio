@@ -106,7 +106,8 @@ const Works = () => {
                 className="inline-block cursor-pointer col-span-1 row-span-1"
               >
                 <div
-                  className={`rounded-[48px] max-md:rounded-[32px] p-10 max-sm:p-6 relative z-[1] h-[100%] bg-[${project.bgcolor}] flex flex-col justify-between`}
+                  className={`rounded-[48px] max-md:rounded-[32px] p-10 max-sm:p-6 relative z-[1] h-[100%] flex flex-col justify-between`}
+                  style={{ backgroundColor: project.bgcolor }}
                 >
                   <div className="flex w-full justify-between items-center">
                     <h1 className="font-montserrat font-bold text-[32px] text-white w-1/2 leading-tight">
